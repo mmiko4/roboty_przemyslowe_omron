@@ -106,7 +106,7 @@ print("dokladnosc orientacji z lasera –", oblicz_Sl([th_robot - th_laser]), "d
 # Obliczyc powtarzalnosc
 
 print("powtarzalnosc położenia –",oblicz_tau([x_w_r,y_w_r]), "±",oblicz_RP([x_w_r,y_w_r])*3, "mm")
-print("powtarzalnosc położenia –",oblicz_tau([th_w_r]), "±",oblicz_RP([th_w_r])*3, "mm")
+print("powtarzalnosc orientacji –",oblicz_tau([th_w_r]), "±",oblicz_RP([th_w_r])*3, "deg")
 
 
 
